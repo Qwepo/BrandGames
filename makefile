@@ -1,6 +1,6 @@
 run:
 	docker-compose  up  -d
-	sleep 4
+	sleep 5
 	pip install -r requirements.txt
 	./manage.py makemigrations
 	./manage.py migrate
