@@ -1,6 +1,6 @@
 # BrandGames
-## Для запуска db и подтягивания зависимостей выполните:
->make run
+## Для запуска db выполните:
+>make rundb
 
 ## Для запуска сервера
->./manage.py runserver
+>make run
