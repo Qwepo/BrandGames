@@ -1,4 +1,4 @@
-rundb:
+run:
 	docker-compose  up  -d
 	pip install -r requirements.txt
 	./manage.py makemigrations
